@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "run-s create:dir gen:html:kendall",
+		"start:pdf": "run-s create:dir gen:pdf:kendall",
 		"init": "resume init",
 		"create:dir": "mkdirp ./docs/",
 		"validate": "resume test",
