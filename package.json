@@ -4,8 +4,8 @@
 	"description": "A resume builder by jsonresume.org",
 	"scripts": {
 		"start": "run-p gen:html gen:pdf",
-		"gen:html": "run-s create:dir gen:html:kendall",
-		"gen:pdf": "run-s create:dir gen:pdf:flat",
+		"gen:html": "run-s create:dir gen:html:elegant",
+		"gen:pdf": "run-s create:dir gen:pdf:stackoverflow",
 		"init": "resume init",
 		"validate": "resume test",
 		"create:dir": "mkdirp ./docs/",
@@ -20,18 +20,24 @@
 		"gen:pdf:spartan": "resume export ./docs/cv.pdf --theme spartan",
 		"gen:html:spartan": "resume export ./docs/index.html --theme spartan",
 		"gen:pdf:kwan": "resume export ./docs/cv.pdf --theme kwan",
-		"gen:html:kwan": "resume export ./docs/index.html --theme kwan"
+		"gen:html:kwan": "resume export ./docs/index.html --theme kwan",
+		"gen:pdf:stackoverflow": "resume export ./docs/cv.pdf --theme stackoverflow",
+		"gen:html:stackoverflow": "resume export ./docs/index.html --theme stackoverflow",
+		"gen:pdf:elegant": "resume export ./docs/cv.pdf --theme elegant",
+		"gen:html:elegant": "resume export ./docs/index.html --theme elegant"
 	},
 	"keywords": [],
 	"author": "Roee Shapira",
 	"license": "ISC",
 	"dependencies": {
+		"jsonresume-theme-elegant": "^1.13.2",
 		"jsonresume-theme-flat": "^0.3.7",
 		"jsonresume-theme-kendall": "^0.1.19",
 		"jsonresume-theme-kwan": "0.0.2",
 		"jsonresume-theme-onepage": "0.0.3",
 		"jsonresume-theme-short": "^0.1.7",
 		"jsonresume-theme-spartan": "^0.3.0",
+		"jsonresume-theme-stackoverflow": "^1.4.0",
 		"resume-cli": "^1.2.7"
 	},
 	"devDependencies": {
