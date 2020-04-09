@@ -54,7 +54,6 @@
 			"highlights": ["C#", "Javascript", "Jquery", "Angularjs", "Angular 2+"]
 		}
 	],
-	"volunteer": [],
 	"education": [
 		{
 			"institution": "John Bryce",
@@ -75,7 +74,6 @@
 			"courses": []
 		}
 	],
-	"awards": [],
 	"publications": [
 		{
 			"name": "Http Responder",
@@ -109,8 +107,8 @@
 			"keywords": ["Nodejs", "Rust", "Python", "REST", "Graphql"]
 		},
 		{
-			"name": "DBs",
-			"keywords": ["SQL", "NoSQL"]
+			"name": "Databases",
+			"keywords": ["Postgres", "MySql", "MongoDB", "Redis"]
 		}
 	],
 	"languages": [
