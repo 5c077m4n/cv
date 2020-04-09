@@ -16,7 +16,11 @@
 		"gen:pdf:onepage": "resume export ./docs/cv.pdf --theme onepage",
 		"gen:html:onepage": "resume export ./docs/index.html --theme onepage",
 		"gen:pdf:short": "resume export ./docs/cv.pdf --theme short",
-		"gen:html:short": "resume export ./docs/index.html --theme short"
+		"gen:html:short": "resume export ./docs/index.html --theme short",
+		"gen:pdf:spartan": "resume export ./docs/cv.pdf --theme spartan",
+		"gen:html:spartan": "resume export ./docs/index.html --theme spartan",
+		"gen:pdf:kwan": "resume export ./docs/cv.pdf --theme kwan",
+		"gen:html:kwan": "resume export ./docs/index.html --theme kwan"
 	},
 	"keywords": [],
 	"author": "Roee Shapira",
@@ -24,8 +28,10 @@
 	"dependencies": {
 		"jsonresume-theme-flat": "^0.3.7",
 		"jsonresume-theme-kendall": "^0.1.19",
+		"jsonresume-theme-kwan": "0.0.2",
 		"jsonresume-theme-onepage": "0.0.3",
 		"jsonresume-theme-short": "^0.1.7",
+		"jsonresume-theme-spartan": "^0.3.0",
 		"resume-cli": "^1.2.7"
 	},
 	"devDependencies": {
