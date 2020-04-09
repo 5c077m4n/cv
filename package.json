@@ -1,14 +1,13 @@
 {
 	"name": "cv",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "My resume builder",
 	"scripts": {
 		"start": "run-s create:dir gen:html:kendall",
 		"start:pdf": "run-s create:dir gen:pdf:kendall",
 		"init": "resume init",
-		"create:dir": "mkdirp ./docs/",
 		"validate": "resume test",
+		"create:dir": "mkdirp ./docs/",
 		"gen:pdf": "resume export ./docs/cv.pdf",
 		"gen:html": "resume export ./docs/index.html",
 		"gen:pdf:kendall": "resume export ./docs/cv.pdf --theme kendall",
