@@ -1,117 +1,124 @@
 {
-    "basics": {
-        "name": "Roee Shapira",
-        "label": "Full Stack Developer",
-        "picture": "https://media-exp1.licdn.com/dms/image/C5603AQEW6eFKmqcFGg/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=X84r1Euv5X9wtaWgRxTYnXKQfLWCGZ9UZLxMfuruLy8",
-        "email": "roy.shap1@gmail.com",
-        "website": "https://5c077m4n.github.io",
-        "summary": "Fullstack developer, passionate about my work - will not rest until it's perfect - and a great team player (and leader when needed). Programming has always been a huge part of my life (since before high school) and has always been a life goal. So much so that in just a mere year and a half I went from being clueless about internet development to creating my very own back- and front-end complete projects all by studying on my own. I am constantly keeping up to date the newest and most state-of-the-art technologies out there (Node.js, Python, MySql, MongoDB, Angular, HTML5, CSS3 and Typescript). Motivating all this is my hunger to learn new information and to leave my mark in the world.",
-        "location": {
-            "address": "",
-            "postalCode": "",
-            "city": "Kiryat Ono",
-            "countryCode": "IL"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "roee-shapira",
-                "url": "https://www.linkedin.com/in/roee-shapira/"
-            },
-            {
-                "network": "Github",
-                "username": "5c077m4n",
-                "url": "https://github.com/5c077m4n"
-            }
-        ]
-    },
-    "work": [
-        {
-            "name": "Gong.io",
-            "position": "Front End Developer",
-            "website": "https://www.gong.io",
-            "startDate": "2019-04-30",
-            "summary": "Front End Developer",
-            "location": "Ramat Gan",
-            "highlights": ["Java", "Javascript", "React"]
-        },
-        {
-            "name": "NGSoft",
-            "position": "Full Stack Junior Dev.",
-            "website": "https://www.ngsoft.com/",
-            "startDate": "2018-10-30",
-            "endDate": "2019-04-29",
-            "summary": "Full Stack Developer",
-            "location": "Petach Tikva",
-            "highlights": ["C#", "Javascript", "Jquery", "Angularjs", "Angular 2+"]
-        }
-    ],
-    "volunteer": [],
-    "education": [
-        {
-            "institution": "John Bryce",
-            "area": "Full Stack Development",
-            "studyType": "",
-            "startDate": "2017-04-15",
-            "endDate": "2018-09-30",
-            "gpa": "",
-            "courses": ["Javascript", "Jquery", "Angular 2+", "PHP"]
-        },
-        {
-            "institution": "Technion - Israel Institute of Technology",
-            "area": "Chemical Eng.",
-            "studyType": "BSc.",
-            "startDate": "2015-10-12",
-            "endDate": "2017-10-12",
-            "gpa": "",
-            "courses": []
-        }
-    ],
-    "awards": [],
-    "publications": [
-        {
-            "name": "Http Responder",
-            "publisher": "NPM",
-            "releaseDate": "2018-04-01",
-            "website": "https://www.npmjs.com/package/http-responder",
-            "summary": ""
-        },
-        {
-            "name": "Await Fn",
-            "publisher": "NPM",
-            "releaseDate": "2018-04-01",
-            "website": "https://www.npmjs.com/package/await-fn",
-            "summary": ""
-        },
-        {
-            "name": "Lazy Piping",
-            "publisher": "NPM",
-            "releaseDate": "2019-05-01",
-            "website": "https://www.npmjs.com/package/iterable-ops",
-            "summary": ""
-        }
-    ],
-    "skills": [
-        {
-            "name": "Front End",
-            "keywords": ["HTML", "CSS", "Javascript", "Angular 2+", "React", "Svelt"]
-        },
-        {
-            "name": "Back End",
-            "keywords": ["Nodejs", "Rust", "Python", "REST", "Graphql"]
-        },
-        {
-            "name": "DBs",
-            "keywords": ["SQL", "NoSQL"]
-        }
-    ],
-    "languages": [
-        { "language": "English", "value": 100, "fluency": "Native speaker" },
-        { "language": "Hebrew", "value": 100, "fluency": "Native speaker" }
-    ],
-    "interests": [],
-    "references": [],
-    "projects": [],
-    "meta": { "theme": "kendall" }
+	"basics": {
+		"name": "Roee Shapira",
+		"label": "Full Stack Developer",
+		"picture": "https://media-exp1.licdn.com/dms/image/C5603AQEW6eFKmqcFGg/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=X84r1Euv5X9wtaWgRxTYnXKQfLWCGZ9UZLxMfuruLy8",
+		"email": "roy.shap1@gmail.com",
+		"website": "https://5c077m4n.github.io",
+		"summary": "Fullstack developer, passionate about my work - will not rest until it's perfect - and a great team player (and leader when needed). Programming has always been a huge part of my life (since before high school) and has always been a life goal. So much so that in just a mere year and a half I went from being clueless about internet development to creating my very own back- and front-end complete projects all by studying on my own. I am constantly keeping up to date the newest and most state-of-the-art technologies out there (Node.js, Python, MySql, MongoDB, Angular, HTML5, CSS3 and Typescript). Motivating all this is my hunger to learn new information and to leave my mark in the world.",
+		"location": {
+			"city": "Kiryat Ono",
+			"countryCode": "Israel"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "roee-shapira",
+				"url": "https://www.linkedin.com/in/roee-shapira/"
+			},
+			{
+				"network": "Github",
+				"username": "5c077m4n",
+				"url": "https://github.com/5c077m4n"
+			},
+			{
+				"network": "NPM",
+				"username": "5c077m4n",
+				"url": "https://www.npmjs.com/~5c077m4n"
+			},
+			{
+				"network": "Stack Overflow",
+				"username": "5c077m4n",
+				"url": "https://stackoverflow.com/users/9170029/roee"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Gong.io",
+			"position": "Front End Developer",
+			"website": "https://www.gong.io",
+			"startDate": "2019-04-30",
+			"summary": "Front End Developer",
+			"location": "Ramat Gan",
+			"highlights": ["Java", "Javascript", "React"]
+		},
+		{
+			"name": "NGSoft",
+			"position": "Full Stack Junior Dev.",
+			"website": "https://www.ngsoft.com/",
+			"startDate": "2018-10-30",
+			"endDate": "2019-04-29",
+			"summary": "Full Stack Developer",
+			"location": "Petach Tikva",
+			"highlights": ["C#", "Javascript", "Jquery", "Angularjs", "Angular 2+"]
+		}
+	],
+	"volunteer": [],
+	"education": [
+		{
+			"institution": "John Bryce",
+			"area": "Full Stack Development",
+			"studyType": "",
+			"startDate": "2017-04-15",
+			"endDate": "2018-09-30",
+			"gpa": "",
+			"courses": ["Javascript", "Jquery", "Angular 2+", "PHP"]
+		},
+		{
+			"institution": "Technion - Israel Institute of Technology",
+			"area": "Chemical Eng.",
+			"studyType": "BSc.",
+			"startDate": "2015-10-12",
+			"endDate": "2017-10-12",
+			"gpa": "",
+			"courses": []
+		}
+	],
+	"awards": [],
+	"publications": [
+		{
+			"name": "Http Responder",
+			"publisher": "NPM",
+			"releaseDate": "2018-04-01",
+			"website": "https://www.npmjs.com/package/http-responder",
+			"summary": ""
+		},
+		{
+			"name": "Await Fn",
+			"publisher": "NPM",
+			"releaseDate": "2018-04-01",
+			"website": "https://www.npmjs.com/package/await-fn",
+			"summary": ""
+		},
+		{
+			"name": "Lazy Piping",
+			"publisher": "NPM",
+			"releaseDate": "2019-05-01",
+			"website": "https://www.npmjs.com/package/iterable-ops",
+			"summary": ""
+		}
+	],
+	"skills": [
+		{
+			"name": "Front End",
+			"keywords": ["HTML", "CSS", "Javascript", "Angular 2+", "React", "Svelt"]
+		},
+		{
+			"name": "Back End",
+			"keywords": ["Nodejs", "Rust", "Python", "REST", "Graphql"]
+		},
+		{
+			"name": "DBs",
+			"keywords": ["SQL", "NoSQL"]
+		}
+	],
+	"languages": [
+		{ "language": "English", "value": 100, "fluency": "Native speaker" },
+		{ "language": "Hebrew", "value": 100, "fluency": "Native speaker" }
+	],
+	"interests": [],
+	"references": [],
+	"projects": [],
+	"meta": { "theme": "kendall" }
 }
-

@@ -5,14 +5,18 @@
 	"scripts": {
 		"start": "run-p gen:html gen:pdf",
 		"gen:html": "run-s create:dir gen:html:kendall",
-		"gen:pdf": "run-s create:dir gen:pdf:kendall",
+		"gen:pdf": "run-s create:dir gen:pdf:flat",
 		"init": "resume init",
 		"validate": "resume test",
 		"create:dir": "mkdirp ./docs/",
 		"gen:pdf:flat": "resume export ./docs/cv.pdf --theme flat",
 		"gen:html:flat": "resume export ./docs/index.html --theme flat",
 		"gen:pdf:kendall": "resume export ./docs/cv.pdf --theme kendall",
-		"gen:html:kendall": "resume export ./docs/index.html --theme kendall"
+		"gen:html:kendall": "resume export ./docs/index.html --theme kendall",
+		"gen:pdf:onepage": "resume export ./docs/cv.pdf --theme onepage",
+		"gen:html:onepage": "resume export ./docs/index.html --theme onepage",
+		"gen:pdf:short": "resume export ./docs/cv.pdf --theme short",
+		"gen:html:short": "resume export ./docs/index.html --theme short"
 	},
 	"keywords": [],
 	"author": "Roee Shapira",
@@ -20,6 +24,8 @@
 	"dependencies": {
 		"jsonresume-theme-flat": "^0.3.7",
 		"jsonresume-theme-kendall": "^0.1.19",
+		"jsonresume-theme-onepage": "0.0.3",
+		"jsonresume-theme-short": "^0.1.7",
 		"resume-cli": "^1.2.7"
 	},
 	"devDependencies": {
