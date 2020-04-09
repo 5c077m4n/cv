@@ -1,0 +1,28 @@
+{
+	"name": "cv",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "run-s create:dir gen:html:kendall",
+		"init": "resume init",
+		"create:dir": "mkdirp ./docs/",
+		"validate": "resume test",
+		"gen:pdf": "resume export ./docs/cv.pdf",
+		"gen:html": "resume export ./docs/index.html",
+		"gen:pdf:kendall": "resume export ./docs/cv.pdf --theme kendall",
+		"gen:html:kendall": "resume export ./docs/index.html --theme kendall"
+	},
+	"keywords": [],
+	"author": "Roee Shapira",
+	"license": "ISC",
+	"dependencies": {
+		"jsonresume-theme-flat": "^0.3.7",
+		"jsonresume-theme-kendall": "^0.1.19",
+		"resume-cli": "^1.2.7"
+	},
+	"devDependencies": {
+		"mkdirp": "^1.0.4",
+		"npm-run-all": "^4.1.5"
+	}
+}
