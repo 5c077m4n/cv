@@ -8,7 +8,7 @@
 		"gen:pdf": "run-s create:dir gen:pdf:macchiato",
 		"init": "resume init",
 		"validate": "resume test",
-		"create:dir": "mkdirp -p ./docs/",
+		"create:dir": "mkdirp ./docs/",
 		"gen:pdf:flat": "resume export ./docs/cv.pdf --theme flat",
 		"gen:html:flat": "resume export ./docs/index.html --theme flat",
 		"gen:pdf:kendall": "resume export ./docs/cv.pdf --theme kendall",
