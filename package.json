@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "run-p gen:html gen:pdf",
 		"gen:html": "run-s create:dir gen:html:rocketspacer",
-		"gen:pdf": "run-s create:dir gen:pdf:flat",
+		"gen:pdf": "run-s create:dir gen:pdf:stackoverflow",
 		"init": "resume init",
 		"validate": "resume test",
 		"create:dir": "mkdirp ./docs/",
