@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "run-p gen:html gen:pdf",
 		"gen:html": "run-s create:dir gen:html:elegant",
-		"gen:pdf": "run-s create:dir gen:pdf:modern",
+		"gen:pdf": "run-s create:dir gen:pdf:macchiato",
 		"init": "resume init",
 		"validate": "resume test",
 		"create:dir": "mkdirp -p ./docs/",
@@ -33,6 +33,8 @@
 		"gen:html:even": "resume export ./docs/index.html --theme even",
 		"gen:pdf:elite": "resume export ./docs/cv.pdf --theme elite",
 		"gen:html:elite": "resume export ./docs/index.html --theme elite",
+		"gen:pdf:macchiato": "resume export ./docs/cv.pdf --theme macchiato",
+		"gen:html:macchiato": "resume export ./docs/index.html --theme macchiato",
 		"postinstall": "npm run build"
 	},
 	"keywords": [],
@@ -45,6 +47,7 @@
 		"jsonresume-theme-flat": "^0.3.7",
 		"jsonresume-theme-kendall": "^0.1.19",
 		"jsonresume-theme-kwan": "0.0.2",
+		"jsonresume-theme-macchiato": "^1.1.0",
 		"jsonresume-theme-material": "^1.3.1",
 		"jsonresume-theme-onepage": "0.0.3",
 		"jsonresume-theme-rocketspacer": "^1.2.2",
