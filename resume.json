@@ -90,10 +90,10 @@
 			"summary": ""
 		},
 		{
-			"name": "Lazy Piping",
+			"name": "pkgplay",
 			"publisher": "NPM",
-			"releaseDate": "2019-05-01",
-			"website": "https://www.npmjs.com/package/iterable-ops",
+			"releaseDate": "2019-10-12",
+			"website": "https://www.npmjs.com/package/pkgplay",
 			"summary": ""
 		}
 	],
