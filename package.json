@@ -38,7 +38,9 @@
 		"postinstall": "npm run build"
 	},
 	"husky": {
-		"pre-commit": "npm run build"
+		"hooks": {
+			"pre-commit": "npm run build"
+		}
 	},
 	"keywords": [],
 	"author": "Roee Shapira",
