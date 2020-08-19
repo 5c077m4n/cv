@@ -4,7 +4,7 @@
 	"description": "A resume builder by jsonresume.org",
 	"scripts": {
 		"build": "run-p gen:html gen:pdf",
-		"gen:html": "run-s create:dir gen:html:elegant",
+		"gen:html": "run-s create:dir gen:html:rocketspacer",
 		"gen:pdf": "run-s create:dir gen:pdf:macchiato",
 		"init": "resume init",
 		"validate": "resume test",
