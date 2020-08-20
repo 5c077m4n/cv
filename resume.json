@@ -104,7 +104,7 @@
 		},
 		{
 			"name": "Back End",
-			"keywords": ["Nodejs", "Rust", "Python", "REST", "Graphql"]
+			"keywords": ["Node.js", "Rust", "REST", "microservices", "RabbitMQ"]
 		},
 		{
 			"name": "Databases",
@@ -112,7 +112,7 @@
 		},
 		{
 			"name": "DevOps",
-			"keywords": ["docker", "docker-compose", "linux", "VPN"]
+			"keywords": ["docker", "docker-compose", "linux", "VPN", "CI/CD (github actions & TravisCI)"]
 		}
 	],
 	"languages": [
